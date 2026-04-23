@@ -1,1 +1,7 @@
-{}
+{
+  "rewrites": [
+    { "source": "/api/submit-form", "destination": "/api/submit-form.js" },
+    { "source": "/api/verify-otp", "destination": "/api/verify-otp.js" },
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ]
+}
